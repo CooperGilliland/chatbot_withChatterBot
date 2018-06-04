@@ -10,7 +10,7 @@ mpFile = "chatRes.mp3"
 chatterbot.set_trainer(ChatterBotCorpusTrainer)
 chatterbot.train(
     # train on the included english language corpus
-    "chatterbot.corpus.english.Computers"
+    "chatterbot.corpus.english"
 )
 def CheckInput(text):
     #check user input for exit condition
