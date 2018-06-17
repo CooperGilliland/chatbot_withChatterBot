@@ -37,7 +37,7 @@ if __name__ == '__main__':
         chatterbot.set_trainer(ChatterBotCorpusTrainer)
         chatterbot.train(
             # train on the included english language corpus
-            "chatterbot.corpus.english.ai"
+            "chatterbot.corpus.english"
         )
         print(
             "This is a demonstration the Chatterbot API working with text to speech, and speech recognition\nGo ahead "
